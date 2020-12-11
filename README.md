@@ -11,7 +11,7 @@
 
 
 <br />
-<p> Images </p>
+<b> Images </b>
 <br />
 <img src="https://raw.githubusercontent.com/sinanercetin/recyclerViewExample/master/images/recyclerview-image-1.JPG">
 <br />
