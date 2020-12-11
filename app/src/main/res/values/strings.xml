@@ -1,5 +1,38 @@
 <resources>
     <string name="app_name">recyclerViewOrnegi</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Vitamin Details -->
+
+    <string name="vitamin_bilgi">Dipnot: Değerler 100 gramlık porsiyona göre belirlenmiştir. Kaynak: TÜBER 2015</string>
+
+    <string name="a_vitamin_altbaslik">A Vitamini Bakımından Zengin Besinler</string>
+    <string name="c_vitamin_altbaslik">C Vitamini Bakımından Zengin Besinler</string>
+    <string name="b1_vitamin_altbaslik">B1 Vitamini Bakımından Zengin Besinler</string>
+    <string name="b2_vitamin_altbaslik">B2 Vitamini Bakımından Zengin Besinler</string>
+    <string name="niasin_vitamin_altbaslik">Niasin Eşdeğerliği (B3 Vitamini) Bakımından Zengin Besinler</string>
+    <string name="b6_vitamin_altbaslik">B6 Vitamini Bakımından Zengin Besinler</string>
+    <string name="b12_vitamin_altbaslik">B12 Vitamini Bakımından Zengin Besinler</string>
+
+
+    <string-array name="a_vitamin">
+        <item>Havuç (2813 mcg)</item>
+        <item>Kayısı (1926 mcg)</item>
+        <item>Kuru Kayısı (1590 mcg)</item>
+        <item>Havuç Suyu (1475 mcg)</item>
+        <item>Maydanoz (902 mcg)</item>
+        <item>Ispanak pişmiş (871 mcg)</item>
+        <item>Pazı pişmiş (658 mcg)</item>
+    </string-array>
+
+    <string-array name="c_vitamin">
+        <item>Yeşil Sivri Biber (235 mg)</item>
+        <item>Maydanoz (166 mg)</item>
+        <item>Kırmızı Biber (140 mg)</item>
+        <item>Kivi (71 mg)</item>
+        <item>Çilek (65 mg)</item>
+        <item>Portakal (50 mg)</item>
+    </string-array>
+
+
 </resources>

@@ -19,8 +19,6 @@ class VitaminRecyclerAdapter (val vitaminList: ArrayList<String>, val vitaminIma
 
     override fun onBindViewHolder(holder: VitaminViewHolder, position: Int) {
 
-        println(vitaminImageList.get(position))
-
         holder.itemView.vitaminNameRV.text = vitaminList.get(position)
         holder.itemView.vitaminImageRV.downloadImage(vitaminImageList.get(position), makePlaceholder(holder.itemView.context))
         holder.itemView.setOnClickListener {
