@@ -12,7 +12,6 @@
 
 <br />
 <b> Images </b>
-<br />
+<br /><br />
 <img src="https://raw.githubusercontent.com/sinanercetin/recyclerViewExample/master/images/recyclerview-image-1.JPG">
-<br />
 <img src="https://raw.githubusercontent.com/sinanercetin/recyclerViewExample/master/images/recyclerview-image-2.JPG">
