@@ -4,16 +4,58 @@
 
     <!-- Vitamin Details -->
 
-    <string name="vitamin_bilgi">Dipnot: Değerler 100 gramlık porsiyona göre belirlenmiştir. Kaynak: TÜBER 2015</string>
+    <string name="vitamin_bilgi">Dipnot: Değerler 100 gramlık porsiyona göre belirlenmiştir.</string>
+    <string name="source">
+        <b>Kaynaklar:</b><br />
+        Vitaminler Minareller ve Sağlığımız, Temel Sağlık Hizmetleri Genel Müdürlüğü, 2008
+        <br />
+        Türkiye Beslenme Rehberi 2015, T.C. Sağlık Bakanlığı Yayın No: 1031
+    </string>
 
-    <string name="a_vitamin_altbaslik">A Vitamini Bakımından Zengin Besinler</string>
-    <string name="c_vitamin_altbaslik">C Vitamini Bakımından Zengin Besinler</string>
-    <string name="b1_vitamin_altbaslik">B1 Vitamini Bakımından Zengin Besinler</string>
-    <string name="b2_vitamin_altbaslik">B2 Vitamini Bakımından Zengin Besinler</string>
-    <string name="niasin_vitamin_altbaslik">Niasin Eşdeğerliği (B3 Vitamini) Bakımından Zengin Besinler</string>
-    <string name="b6_vitamin_altbaslik">B6 Vitamini Bakımından Zengin Besinler</string>
-    <string name="b12_vitamin_altbaslik">B12 Vitamini Bakımından Zengin Besinler</string>
+    <string name="mostVitamin">En çok bulunan besinler</string>
 
+    <string name="a_vitamin_altbaslik">
+        A vitamini; görme, büyüme, üreme, embriyo gelişmesi, kan yapımı,
+        bağışıklık sistemi ve doku hücresi farklılaşmasında gerekli bir vitamindir.
+        Cildin tırnakların ve saçların sağlıklı kalmasını sağlar. Diş ve dişetleri için büyük önem taşır.
+        A vitamini yağda erir, ısıya dayanıklıdır
+    </string>
+
+    <string name="c_vitamin_altbaslik">
+        Besinlerle alınan vitamin 2 saat içerisinde kullanılır 4 saat sonunda kandan uzaklaşır.
+        Yaraların iyileşmesini, damarların sağlıklı olamalarını sağlar. Vücudun bağışıklık sistemini güçlendirir.
+        Histamin yapımını azaltarak alerjik olayların şiddetini düşürür. Eksikliğinde diş eti kanamaları ve çekilmeleri olur,
+        yorgunluk, isteksizlik ve eklem ağrıları da görülebilir.
+    </string>
+
+    <string name="b1_vitamin_altbaslik">
+        En önemli görevi enerji metabolizmasındadır. Değişik besinlerle vücuda alınan besin öğelerinin vücutta enerjiye çevrilmesi,
+        yine en önemli enerji kaynaklarından olan karbonhidratlardan enerji yapımında B1  vitamininin önemli bir işlevi vardır.
+    </string>
+
+    <string name="b2_vitamin_altbaslik">A vitamini; görme, büyüme, üreme, embriyo gelişmesi, kan yapımı,
+        bağışıklık sistemi ve doku hücresi farklılaşmasında gerekli bir vitamindir.
+        Cildin tırnakların ve saçların sağlıklı kalmasını sağlar. Diş ve dişetleri için büyük önem taşır.
+        A vitamini yağda erir, ısıya dayanıklıdır
+    </string>
+
+    <string name="niasin_vitamin_altbaslik">A vitamini; görme, büyüme, üreme, embriyo gelişmesi, kan yapımı,
+        bağışıklık sistemi ve doku hücresi farklılaşmasında gerekli bir vitamindir.
+        Cildin tırnakların ve saçların sağlıklı kalmasını sağlar. Diş ve dişetleri için büyük önem taşır.
+        A vitamini yağda erir, ısıya dayanıklıdır
+    </string>
+
+    <string name="b6_vitamin_altbaslik">A vitamini; görme, büyüme, üreme, embriyo gelişmesi, kan yapımı,
+        bağışıklık sistemi ve doku hücresi farklılaşmasında gerekli bir vitamindir.
+        Cildin tırnakların ve saçların sağlıklı kalmasını sağlar. Diş ve dişetleri için büyük önem taşır.
+        A vitamini yağda erir, ısıya dayanıklıdır
+    </string>
+
+    <string name="b12_vitamin_altbaslik">A vitamini; görme, büyüme, üreme, embriyo gelişmesi, kan yapımı,
+        bağışıklık sistemi ve doku hücresi farklılaşmasında gerekli bir vitamindir.
+        Cildin tırnakların ve saçların sağlıklı kalmasını sağlar. Diş ve dişetleri için büyük önem taşır.
+        A vitamini yağda erir, ısıya dayanıklıdır
+    </string>
 
     <string-array name="a_vitamin">
         <item>Havuç (2813 mcg)</item>
@@ -32,6 +74,25 @@
         <item>Kivi (71 mg)</item>
         <item>Çilek (65 mg)</item>
         <item>Portakal (50 mg)</item>
+    </string-array>
+
+    <string-array name="b1_vitamin">
+        <item>Karaciğer ve diğer organ etleri</item>
+        <item>Et</item>
+        <item>Süt</item>
+        <item>Yumurta</item>
+        <item>Kuru Baklagiller</item>
+        <item>Tahıllar (buğday, mısır, pirinç)</item>
+        <item>Ceviz</item>
+        <item>Fındık</item>
+    </string-array>
+
+    <string-array name="b12_vitamin">
+        <item>Somon, pişmiş (3 mcg)</item>
+        <item>Kırmızı et, az/yarım yağlı pişmiş (2,8 mcg)</item>
+        <item>Yumurta (2 mcg)</item>
+        <item>Ton balığı konservesi, az yağlı (2 mcg)</item>
+        <item>Beyaz peynir, tam yağlı (2 mcg)</item>
     </string-array>
 
 

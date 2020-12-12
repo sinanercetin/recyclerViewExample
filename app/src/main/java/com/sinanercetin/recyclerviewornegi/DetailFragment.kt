@@ -48,7 +48,7 @@ class DetailFragment : Fragment() {
 
         if(vitName == "A Vitamini"){
             //val array: Array = resources.getStringArray(R.array.planets_array)
-            altBaslikVitamin.text = resources.getString(R.string.a_vitamin_altbaslik)
+            altTitleVitamin.text = resources.getString(R.string.a_vitamin_altbaslik)
             val fruits : Array<String> = resources.getStringArray(R.array.a_vitamin)
             context?.let {
                 arrayAdapter = ArrayAdapter(it, R.layout.support_simple_spinner_dropdown_item, fruits)
@@ -56,8 +56,7 @@ class DetailFragment : Fragment() {
             }
         }
         if(vitName == "C Vitamini"){
-            //val array: Array = resources.getStringArray(R.array.planets_array)
-            altBaslikVitamin.text = resources.getString(R.string.c_vitamin_altbaslik)
+            altTitleVitamin.text = resources.getString(R.string.c_vitamin_altbaslik)
             val fruits : Array<String> = resources.getStringArray(R.array.c_vitamin)
             context?.let {
                 arrayAdapter = ArrayAdapter(it, R.layout.support_simple_spinner_dropdown_item, fruits)
@@ -65,17 +64,15 @@ class DetailFragment : Fragment() {
             }
         }
         if(vitName == "B1 Vitamini"){
-            //val array: Array = resources.getStringArray(R.array.planets_array)
-            altBaslikVitamin.text = resources.getString(R.string.b1_vitamin_altbaslik)
-            val fruits : Array<String> = resources.getStringArray(R.array.a_vitamin)
+            altTitleVitamin.text = resources.getString(R.string.b1_vitamin_altbaslik)
+            val fruits : Array<String> = resources.getStringArray(R.array.b1_vitamin)
             context?.let {
                 arrayAdapter = ArrayAdapter(it, R.layout.support_simple_spinner_dropdown_item, fruits)
                 listView.adapter = arrayAdapter
             }
         }
         if(vitName == "B2 Vitamini"){
-            //val array: Array = resources.getStringArray(R.array.planets_array)
-            altBaslikVitamin.text = resources.getString(R.string.b2_vitamin_altbaslik)
+            altTitleVitamin.text = resources.getString(R.string.b2_vitamin_altbaslik)
             val fruits : Array<String> = resources.getStringArray(R.array.a_vitamin)
             context?.let {
                 arrayAdapter = ArrayAdapter(it, R.layout.support_simple_spinner_dropdown_item, fruits)
@@ -83,8 +80,7 @@ class DetailFragment : Fragment() {
             }
         }
         if(vitName == "Niasin Eşdeğerliği"){
-            //val array: Array = resources.getStringArray(R.array.planets_array)
-            altBaslikVitamin.text = resources.getString(R.string.niasin_vitamin_altbaslik)
+            altTitleVitamin.text = resources.getString(R.string.niasin_vitamin_altbaslik)
             val fruits : Array<String> = resources.getStringArray(R.array.a_vitamin)
             context?.let {
                 arrayAdapter = ArrayAdapter(it, R.layout.support_simple_spinner_dropdown_item, fruits)
@@ -92,8 +88,7 @@ class DetailFragment : Fragment() {
             }
         }
         if(vitName == "B6 Vitamini"){
-            //val array: Array = resources.getStringArray(R.array.planets_array)
-            altBaslikVitamin.text = resources.getString(R.string.b6_vitamin_altbaslik)
+            altTitleVitamin.text = resources.getString(R.string.b6_vitamin_altbaslik)
             val fruits : Array<String> = resources.getStringArray(R.array.a_vitamin)
             context?.let {
                 arrayAdapter = ArrayAdapter(it, R.layout.support_simple_spinner_dropdown_item, fruits)
@@ -101,9 +96,8 @@ class DetailFragment : Fragment() {
             }
         }
         if(vitName == "B12 Vitamini"){
-            //val array: Array = resources.getStringArray(R.array.planets_array)
-            altBaslikVitamin.text = resources.getString(R.string.b12_vitamin_altbaslik)
-            val fruits : Array<String> = resources.getStringArray(R.array.a_vitamin)
+            altTitleVitamin.text = resources.getString(R.string.b12_vitamin_altbaslik)
+            val fruits : Array<String> = resources.getStringArray(R.array.b12_vitamin)
             context?.let {
                 arrayAdapter = ArrayAdapter(it, R.layout.support_simple_spinner_dropdown_item, fruits)
                 listView.adapter = arrayAdapter
